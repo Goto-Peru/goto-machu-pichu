@@ -1,0 +1,88 @@
+.cusco_container {
+  text-align: center;
+  padding-top: 2em;
+}
+.cusco_container p {
+  font-size: larger;
+  margin-left: 2em;
+  margin-right: 2em;
+
+ }
+.title {
+  color: #3a6f84;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.carrusel_container {
+  width: 50%;
+  margin: 5em auto;
+}
+.carrusel {
+  display: flex;
+  justify-content: center;
+}
+.container_whyus {
+  display: grid;
+  margin-bottom: 5em;
+
+}
+.datas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5em;
+text-align: center;
+  
+}
+.sub_data {
+  text-align: center;
+  width: 20%;
+}
+.why {
+text-align: center;
+font-weight: 800;
+font-size: 50px;
+margin-bottom: 1em;
+
+}
+
+.why_sub {
+  font-weight: 600;
+  font-size: 20px;
+ }
+
+.icons {
+  font-size: 100px;
+  margin: auto;
+}
+.img_container {
+  width: 90%;
+  max-width: 100%;
+  margin: 2em auto;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .sub_data {
+      width: 90%;
+  }
+  .why {
+      text-align: center;
+      font-weight: 800;
+      font-size: 30px;
+      margin-bottom: 1em;
+     
+     }
+     .cusco_container p {
+      font-size: larger;
+      margin-left: 1em;
+      margin-right: 1em;
+      width: 90%;
+     }
+
+  
+
+}
